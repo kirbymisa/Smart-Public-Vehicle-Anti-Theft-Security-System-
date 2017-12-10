@@ -7,7 +7,7 @@
 from firebase import firebase
 
 # Firebase setup
-firebase = firebase.FirebaseApplication('https://vehiclegpstrackingapp.firebaseio.com/', None)
+firebase = firebase.FirebaseApplication('https://----.firebaseio.com/', None)
 
 # Fetch all data in JSON child database
 allDataResult = firebase.get('vehicleinfo', None)
